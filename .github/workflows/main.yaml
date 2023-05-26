@@ -32,7 +32,7 @@ jobs:
         run: |
           poetry run mypy app
 
-      - name: Run Black
+      - name: Run Black app
         run: |
           poetry run black app tests --check
 
