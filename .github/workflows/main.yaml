@@ -29,12 +29,12 @@ jobs:
 
       - name: Run Mypy
         run: |
-          mypy fastapi
+          mypy app
 
       - name: Run Black
         run: |
-          black fastapi tests --check
+          black app tests --check
 
       - name: Run Isort
         run: |
-          isort fastapi tests --check-only
+          isort app tests --check-only
