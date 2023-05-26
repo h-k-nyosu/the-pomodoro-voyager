@@ -3,7 +3,6 @@ name = "the-pomodoro-voyager"
 version = "0.1.0"
 description = ""
 authors = ["h-k-nyosu <kuro.h1020@gmail.com>"]
-packages = [{include = "the_pomodoro_voyager"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
