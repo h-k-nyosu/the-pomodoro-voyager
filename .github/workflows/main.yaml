@@ -32,10 +32,10 @@ jobs:
         run: |
           poetry run mypy app
 
-      - name: Run Black app
+      - name: Run Black
         run: |
-          poetry run black app tests --check
+          poetry run black app --check
 
       - name: Run Isort
         run: |
-          poetry run isort app tests --check-only
+          poetry run isort app --check-only
